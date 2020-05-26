@@ -1,0 +1,717 @@
+.logo{
+	width:15%;
+	padding:6px;
+	
+}
+
+header{
+	background:white;
+}
+
+
+.caixa-header{
+	position: relative;
+	width: 940px;
+	margin:0px auto;
+	padding:20px;
+
+}
+
+
+
+nav {
+	position:absolute;
+	top:35px;
+	right:0px;
+}
+
+nav li {
+	display:inline;
+	margin:0 0 0 17px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #008080;
+	font-size:16px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+
+}
+
+nav a:hover{
+	color:darkred;
+
+}
+
+.secao1{
+	background-position: center;
+	background-image: url("imagens/foto-topo-opacity.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+	position:relative;
+	height:100vh;
+
+}
+
+
+
+.texto{
+	padding-top:5%;
+	position:relative;
+	text-align:center;
+	width:940px;
+	margin: 0 auto;
+}
+
+
+.secao1 h1{
+	position: relative;
+    color:white;
+    font-size:50px;
+	font-family: 'Raleway' , sans-serif;
+	font-weight:800;
+	text-transform: uppercase;
+	padding:60px 0 120px 0;
+
+}
+
+.titulo-secundario{
+	  position: relative;
+      color:white;
+      font-size:25px;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 400;
+      top:0px;
+      padding:90px 0 5px 0;
+
+}
+
+.square {
+  height: 3px;
+  width: 130px;
+  background-color: white;
+  margin:10px auto;
+}
+
+
+.botao-contato{
+	padding:12px 60px;
+	margin:0 auto 400px auto;
+	font-size:25px;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+	color: #008080;
+	border: none;
+	transition: 0.5s;
+	position:relative;
+}
+
+.botao-contato:hover{
+	background:darkred;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*CSS PARA A SEÇÃO 2*/
+
+.about-secao2{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.about-secao2 h2{
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:#363636;
+    margin:20px 0 40px;
+}
+
+.conheca-lista img{
+	width:120px;
+	padding:0 0 0 90px;
+}
+
+.conheca-lista li{
+	display: inline-block;
+	text-align: left;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	color:#696969;
+}
+
+.conheca-lista h3{
+	font-family: 'Titillium Web', sans-serif;
+	color:#008B8B;
+    font-weight: 600;
+    line-height:1.5em;
+    padding:10px 0 20px 0;
+    font-size:20px;
+
+}
+
+
+/*CSS PARA A SEÇÃO 3*/
+
+.secao-controle-acesso{
+	
+	width: 100%;
+	padding:20px 0;
+	background:#2C2C2C;
+
+}
+
+.caixa-home-controle-acesso{
+	width:600px;
+	background:#2C2C2C;
+	text-align:center;
+	color:white;
+	margin:0 auto;
+}
+
+.caixa-home-controle-acesso h2{
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:white;
+    margin:40px 0 40px;
+
+}
+
+.caixa-home-controle-acesso p{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 2em;
+	letter-spacing:0.05em;
+	color:white;
+
+
+}
+
+.caixa-home-controle-acesso .controle-link-pagina{
+	margin:40px;
+	font-size:20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:600;
+}
+
+.controle-link-pagina a{
+	text-decoration: none;
+	color:#32CD32;
+	transition: 0.5s;
+}
+
+.controle-link-pagina a:hover{
+	color:#20B2AA;
+	transition: 0.5s;
+}
+
+
+/*CSS PARA A SEÇÃO 3*/
+
+
+.como-funciona{
+	width: 100%;
+	background:#EBF5FB;
+}
+
+.caixa-como-funciona-seguranca{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	background:#EBF5FB;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.3em;
+	letter-spacing:0.05em;
+
+}
+
+.caixa-como-funciona-seguranca h2{
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    font-size:40px;
+    margin:20px 0;
+    color:#212F3D ;
+
+}
+
+.caixa-como-funciona-seguranca .tecnico{
+	float:left;
+	margin:0 50px 20px 150px;
+	padding:60px 0 10px 0;
+}
+
+.caixa-como-funciona-seguranca .homem-celular{
+	float:right;
+	margin:0 50px 20px 30px;
+	padding:180px 0 0 0;
+}
+
+.caixa-como-funciona-seguranca .seguranca{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:38px;
+	font-weight:600;
+	padding:80px 0 15px 0;
+	color:#212F3D ;
+
+}
+
+.caixa-como-funciona-seguranca .descritivo-seguranca{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#363636;
+	padding:15px 100px 0 0;
+	line-height: 2em;
+	letter-spacing:0.05em;
+
+
+}
+
+.caixa-como-funciona-seguranca .controle-aplicativo{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:38px;
+	font-weight:600;
+	padding:40px 0 15px 120px;
+	line-height: 1.2em;
+	color:#212F3D ;
+
+
+}
+
+.caixa-como-funciona-seguranca .descritivo-aplicativo{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#363636;
+	padding:15px 15px 0 120px;
+	line-height: 2em;
+	letter-spacing:0.05em;
+
+}
+
+/* CSS SEÇÃO 4*/
+
+.portaria-remota{
+	width: 100%;
+	padding:20px 0;
+	background:#008B8B ;
+}
+
+.caixa-portaria-remota{
+	width:600px;
+	background:#008B8B;
+	text-align:center;
+	color:white;
+	margin:20px auto;
+
+}
+
+.caixa-portaria-remota p{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	color:white;
+
+
+}
+
+.caixa-portaria-remota h2{
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:white;
+    margin:40px 0 40px;
+
+}
+
+.botao-contato-portaria{
+	padding:12px 60px;
+	margin:50px 0 0 0;
+	font-size:18px;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+	color: #008080;
+	border: none;
+	transition: 0.5s;
+}
+
+.botao-contato-portaria:hover{
+	background:darkred;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*CSS SEÇÃO 5*/
+
+.quem-confia{
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.quem-confia h2{
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:#363636;
+    margin:20px 0 40px;
+    
+
+}
+
+.quem-confia ul{
+	text-align: center;
+}
+
+.quem-confia li{
+	display:inline;
+	position:relative;
+
+
+}
+.quem-confia img{
+	width:150px;
+	padding:30px;
+
+}
+
+/*CSS FORMULARIO*/
+
+form {
+	width: 100%;
+	padding:20px 0;
+	background-image: url("imagens/trabalho-opacity.jpg");
+	background-size: cover;
+}
+
+form .form-contato{
+	width:940px;
+	text-align:left;
+	color:white;
+	margin:0 auto;
+	padding:40px 0 40px;
+
+}
+
+form h3{
+	color:#32CD32;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    padding:60px 0 20px 80px;
+
+}
+
+form p{
+	color:#FFFFFF;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size:30px;
+    padding:20px 40px 40px;
+    line-height: 1.2em;
+    margin:0 0 0 40px;
+
+}
+
+
+form label{
+	display:block;
+	margin:0 0 10px 80px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+form input{
+	display:block;
+	margin:0 0 20px 80px;
+	padding:5px 200px 5px 0;
+
+}
+
+form textarea{
+	display:block;
+	margin:0 0 40px 80px;
+
+}
+
+
+.botao-solicitar-contato{
+	padding:12px 60px;
+	margin:0 0 20px 80px ;
+	font-size:18px;
+	width:380px;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    background:#008080;;
+	color: white;
+	border: none;
+	transition: 0.5s;
+}
+
+.botao-solicitar-contato:hover{
+	background:darkred;;
+	color: white;
+	transition:0.5s;
+
+}
+
+/*FOLHA DE ESTILO PARA A PÁGINA DE CONTROLE DE ACESSO*/
+
+
+.caixa-controle-acesso{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0 50px 150px;
+	background:#282828;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.3em;
+	letter-spacing:0.05em;
+}
+
+.secao_controle_acesso{
+	width: 100%;
+	background:#282828;
+}
+
+.caixa-controle-acesso h2{
+	text-align:left;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    font-size:40px;
+    margin:60px 0 10px 0;
+    color:#FFFFFF;
+
+}
+
+.caixa-controle-acesso p{
+	text-align:left;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size:20px;
+    margin:20px 0;
+    color:#FFFFFF ;
+
+}
+
+.caixa-controle-acesso .equipamento-digital{
+	float:left;
+	margin:0px 50px 40px 100px;
+	padding:60px 50px 10px 60px;
+}
+
+
+.caixa-controle-acesso .titulo-flexibilidade{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:38px;
+	font-weight:600;
+	padding:50px 100px 15px 0px;
+	color:#00CC66 ;
+
+
+}
+
+.caixa-controle-acesso .descritivo-flexibilidade{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	padding:15px 150px 0 0px;
+	line-height: 2em;
+	letter-spacing:0.05em;
+
+}
+
+
+.caixa-controle-acesso .equipamento-leitora{
+	float:right;
+	margin:0 0px 20px 150px;
+	padding:80px 250px 10px 0;
+}
+
+.caixa-controle-acesso .titulo-tecnologia{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:38px;
+	font-weight:600;
+	padding:100px 60px 15px 0;
+	color:#00CC66;
+
+}
+
+.caixa-controle-acesso .descritivo-tecnologia{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	padding:15px 100px 0 0;
+	margin-bottom:100px;
+	line-height: 2em;
+	letter-spacing:0.05em;
+
+
+}
+
+.caixa-controle-acesso .chamada-contato{
+
+	color:#00CC66;
+
+}
+
+/*SEÇÃO 2*/
+
+
+.secao2-produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+
+.tres-produtos img{
+	width:180px;
+	padding:0 30px;
+}
+
+.tres-produtos li{
+	display: inline-block;
+	text-align: left;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	color:#696969;
+}
+
+.tres-produtos li a{
+	color:#009900;
+	text-decoration: none;
+}
+
+.tres-produtos li a:hover{
+	font-weight: bold;
+}
+
+
+.tres-produtos h3{
+	font-family: 'Titillium Web', sans-serif;
+	color:#282828;
+    font-weight: 600;
+    line-height:1.5em;
+    padding:10px 0 20px 0;
+    font-size:20px;
+
+}
+
+/*SEÇÃO 3 - CICLO SEGURANÇA*/
+
+
+.secao3-fundo{
+	background:#F2F7FF;
+}
+
+.secao3-ciclo-seguranca{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.secao3-ciclo-seguranca h2{
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:#363636;
+    margin:40px 0 40px;
+}
+
+
+.itens-seguranca img{
+	width:80px;
+	padding:0 0 0 35%;
+}
+
+.itens-seguranca li{
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 30px 0 80px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	color:#696969;
+}
+
+
+.itens-seguranca h3{
+	font-family: 'Titillium Web', sans-serif;
+	color:#282828;
+    font-weight: 600;
+    line-height:1.5em;
+    padding:10px 0 20px 0;
+    font-size:20px;
+
+}
+
+/*Seção 4 */
+
+
+.controle-acesso-24h{
+	width: 100%;
+	padding:20px 0;
+	background:#282828 ;
+}
+
+.caixa-controle-acesso-24h{
+	width:600px;
+	background:#282828;
+	text-align:center;
+	color:white;
+	margin:20px auto;
+
+}
+
+.caixa-controle-acesso-24h p{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height: 1.5em;
+	letter-spacing:0.05em;
+	color:white;
+
+
+}
+
+.caixa-controle-acesso-24h h2{
+	font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size:30px;
+    color:white;
+    margin:40px 0 40px;
+
+}
+
+
+
