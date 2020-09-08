@@ -1,0 +1,109 @@
+
+/**************************************/
+/***************CHAMADA CA*************/
+/**************************************/
+
+.secao-chamada-ca{
+  background-image: url("../imagens/controle-acesso-cor.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .caixa-chamada-ca{
+    width:1100px;
+    height:430px;
+    margin:0 auto;
+    padding:10px;
+    position:relative;
+  }
+
+  .conteudo-chamada-ca{
+    width:600px;
+    position:relative;
+  }
+
+  .conteudo-chamada-ca h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    font-size:45px;
+    color: white;
+    margin:50px 0 30px 0;
+  }
+
+  .conteudo-chamada-ca p{
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    line-height:1.5em;
+    color: white;
+    margin-bottom:50px;
+  }
+
+  .conteudo-chamada-ca a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    position: absolute;
+    background-color:var(--verdelimao);
+    color: black;
+    box-sizing: border-box;
+    padding:20px 40px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  .conteudo-chamada-ca a:hover{
+    background-color:var(--verdemedio);
+    color:white;
+  }
+
+  @media (max-width:1140px){
+    .caixa-chamada-ca{
+      width:100%;
+      padding:10px 0;
+        }
+    .caixa-chamada-ca h2,
+    .caixa-chamada-ca p,
+    .caixa-chamada-ca a{
+      margin-left:40px;
+  }
+
+  }
+
+  @media (max-width:800px){
+    .caixa-chamada-ca h2,
+    .caixa-chamada-ca p,
+    .caixa-chamada-ca a{
+      margin-left:40px;
+    }
+  }
+
+
+  @media (max-width:450px){
+    .caixa-chamada-ca{
+      width:100%;
+      height:450px;
+      padding:10px 0;
+    }
+
+    .caixa-chamada-ca a{
+      margin: 0 40px;
+    }
+    .conteudo-chamada-ca{
+      width:100%;
+    }
+
+    .conteudo-chamada-ca p,
+    .conteudo-chamada-ca h2{
+      margin:40px;
+    }
+
+    .conteudo-chamada-ca h2{
+      font-size:35px;
+    }
+  }
+
+  @media(max-width:350px){
+    .caixa-chamada-ca{
+      height:550px;
+    }
+  }

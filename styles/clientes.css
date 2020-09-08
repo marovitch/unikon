@@ -1,0 +1,62 @@
+/**************************************/
+/****************CLIENTES**************/
+/**************************************/
+
+
+
+.clientes{
+    background-color:whitesmoke;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+  }
+
+  .caixa-clientes{
+    width:100%;
+    margin:0 auto;
+    padding:10px 0;
+  }
+
+  .caixa-clientes h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    font-size:30px;
+    margin:50px 0;
+    text-align:center;
+    color:var(--cinzatextos);
+  }
+
+  .clientes ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:70px;
+    list-style-type:none;
+  }
+
+  .lista-clientes img{
+    width:150px;
+  }
+
+  @media (max-width:800px){
+    .lista-clientes img{
+      width:80px;
+    }
+  }
+
+  @media (max-width:450px){
+
+    .clientes ul {
+      flex-direction:column;
+      margin-bottom:30px;
+    }
+
+    .lista-clientes li{
+      margin:20px 0;
+    }
+
+    .caixa-clientes h2{
+      font-size:25px;
+    }
+
+
+  }

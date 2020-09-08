@@ -3,178 +3,374 @@
 
 	<head>
 		<meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Unikon - Segurança Eletrônica</title>
-		<link rel = "stylesheet"  href= "stylesheet.css">
-		<link rel = "stylesheet"  href= "reset.css">
+    <link rel = "stylesheet"  href= "styles/root.css">
+    <link rel = "stylesheet"  href= "styles/beneficios.css">
+    <link rel = "stylesheet"  href= "styles/header.css">
+    <link rel = "stylesheet"  href= "styles/conheca.css">
+    <link rel = "stylesheet"  href= "styles/chamada-ca.css">
+    <link rel = "stylesheet"  href= "styles/chamada-pr.css">
+    <link rel = "stylesheet"  href= "styles/solucoes.css">
+    <link rel = "stylesheet"  href= "styles/clientes.css">
+		<link rel = "stylesheet"  href= "styles/acompanhamento.css">
+    <link rel = "stylesheet"  href= "styles/form-contato.css">
+    <link rel = "stylesheet"  href= "styles/footer.css">
 		<link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700|Exo+2:400,600,700|Raleway:400,600,700,800|Titillium+Web:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-	</head>
+    <script src="https://kit.fontawesome.com/8ae6b6362f.js" crossorigin="anonymous"></script>
+  </head>
 
-	<body>
-		<header>
+  <body>
 
-			<div class = "caixa-header">
+    <header id = "home">
+      <div class = "full-nav">
+        <div class="contato-superior">
+          <div class="caixa-superior">
+            <ul>
+              <li><a href ="https://api.whatsapp.com/send?phone=5511983431521">Clique para iniciar uma conversa no WhatsApp: (11) 98343-1521</a></li>
+            </ul>
+          </div>
+        </div>
 
-				<img class  = "logo" src = "imagens\logo_curvas.png">
-				
-				<nav>
-					<ul>
-						<li><a href = "www.google.com.br">Home</a></li>
-						<li><a href = "index.html#h2-conheca">Quem Somos</a></li>
-						<li><a href = "index.html#ancora-ComoFunciona">Segurança Eletrônica</a></li>
-						<li><a href = "index.html#ancora-Clientes">Clientes</a></li>
-						<li><a href = "index.html#ancora-Contato">Solicite um contato</a></li>
-						<li><a href = "controle_acesso.html">Controle de Acesso</a></li>
-					</ul>
+        <nav class = "menu">
+          <div class = "caixa-menu">
+            <a href="#home"><img class  = "logo" src = "imagens\logo_curvas.png"></a>
+              <ul class = "menu-normal" id = "myLinks">
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#conheca">Quem Somos</a></li>
+                <li><a href = "#servicos">Serviços</a></li>
+                <li><a href = "#servicos">Soluções em Segurança</a>
+                <ul class ="dropdown-menu">
+                    <li><a href="controle-acesso.html">Controle de Acesso</a></li>
+	                  <li><a href="portaria-remota.html">Portaria Remota</a></li>
+                  </ul>
 
-				</nav>
-			</div>
-		</header>
+                </li>
 
-		<main>
-			
-			<section class="secao1">
-				
-				<div class = "texto">
-					<h2 class ="titulo-secundario">Segurança e Monitoramento 24h</h1>
+                <li><a href = "#clientes">Clientes</a></li>
+                <li><a class ="a-btn-contato" href = "#contato">Contato</a></li>
+            </ul>
 
-					<div class="square"></div>
+            <a href="javascript:void(0);" class="icon" onclick="menuHamburguer()">
+              <i class="fa fa-bars"></i></a></a>
+          </div>
+        </nav>
+       </div>
 
-					<h1 class ="titulo-principal">A unikon protege <br> o que mais importa para você</h1>
+      <section class = "principal">
+        <div class = "background-header">
+          <div class = "cor-background-header">
+            <div class = "caixa-conteudo-header">
 
+             <div class = caixa-texto>
+                <h1 class = "titulo-principal"> A Unikon protege o que mais importa para você</h1>
+                <h2 class = "titulo-secundario">Segurança e monitoramento 24h</h2>
 
-					<!--Campo de botão  --> 
-				<input class = "botao-contato" type="submit" value = "Entre em contato">
-					
-				</div>	
+                <div class = "caixa-botao">
+                  <a href = "#conheca" class = "a-botao-contato">Conheça</a>
+                  <a href="#contato"class = "a-botao-contato">Fale com um representante</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
 
+    <main>
+      <section class = "secao-beneficios">
+          <div class = "caixa-beneficios">
+            <div class="square"></div>
+            <h2> Alarmes monitorados com <br>videoverificação <span class="negrito"> em tempo real</span></h2>
+             <ul class = "lista-beneficios">
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/sensor-cor.svg">
+                  <h3>Sensores e painéis</h3>
+                </div>
+                <p>O sistema de alarmes monitorados é composto por painéis de alarmes e sensores, com ou sem fio.</p>
+              </li>
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/nvcamera-cor.svg">
+                  <h3>Visão Noturna</h3>
+                </div>
+                <p>Nossos sistemas possuem câmeras de alta definição com visão noturna para controlar o perímetro mesmo a noite.</p>
+              </li>
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/server-cor.svg">
+                  <h3>Backup de comunicação</h3>
+                </div>
+                <p>Um sistema com equipamentos antissabotagem, que faz comunicação direta com a nossa central 24h. </p>
+              </li>
+            </ul>
+          </div>
 			</section>
 
+      <section class = "secao-conheca" id = "conheca">
+        <div class = "caixa-conheca">
+          <div class="square1"></div>
+          <h2>Conheça a Unikon</h2>
+          <p>A Unikon é uma empresa tradicional no mercado de segurança eletrônica no Brasil.
+            Com foco em Monitoramento 24h, realizamos projetos personalizados de integração de sistemas,
+            reunindo tecnologia, funcionalidade e design de acordo com a necessidade específica de sua empresa,
+            casa ou comércio. A Unikon possui larga experiência em projetos integrados de segurança e conta com
+            equipe própria de instalação e manutenção. Nossos  projetos são baseados em criteriosa análise de risco,
+            sempre superviosonados por profissionais especializados, como engenheiros e analistas de sistemas,
+            que acompanham a execução do projeto do início ao fim, garantindo qualidade total na instalação.</p>
 
-			<section class = "about-secao2">
+            <ul class = "lista-caracteristicas">
+              <div class = "caixa-caracteristicas">
+                <li>
 
-				<h2 id = "h2-conheca"> Conheça a Unikon</h2>
-				<ul class = "conheca-lista">
-							
-					<li>
-						<img src = "imagens\apoio_verde.png">
-						<h3>Técnicos, instaladores e central de monitoramento 24h</h3>
-						<p>A Unikon supervisiona todo o atendimento, desde o primeiro contato até a implementação dos sistemas de segurança. Em caso de necessidade,  estaremos prontos para adotar todos os procedimentos de segurança e entraremos em contato com as autoridades responsáveis para garantir a integridade do seu patrimônio.</p>
-								
-					</li>
+                    <h3>Central de monitoramento <br> e suporte 24h</h3>
 
-					<li>
-						<img src = "imagens\casa_verde.png">
-						<h3>Há mais de 20 anos pensando em você</h3>
-						<p>Somos uma empresa tradicional no mercado de segurança eletrônica no Brasil. Há exatos 25 anos a Unikon  realiza projetos personalizados de segurança, tanto para o seu negócio quanto residência.</p>
-					</li>
-					
-					<li>
-						<img src = "imagens\seguro_verde.png">
-						<h3>Equipamentos mais <br> atualizados do mercado</h3>
-						<p>A Unikon trabalha com equipamentos de última geração em controle de acesso, alarme, interfonia, câmeras de vigilância e VOIP. Caso aconteça algum problema com os equipamentos, será enviado ao local um porteiro presencial até que o sistema volte ao pleno funcionamento.</p>
-								
-					</li>
+                </li>
+                <li>
 
+                    <h3>Há mais de 20 anos <br>pensando em você </h3>
 
-				</ul>
-					
+                </li>
+                <li>
 
+                    <h3>Trabalhando com <br>tecnologia de ponta</h3>
+
+                </li>
+              </div>
+            </ul>
+        </div>
+      </section>
+
+      <section class = "secao-solucoes" id="servicos">
+          <div class = "caixa-solucoes">
+            <div class="square"></div>
+            <h2> <span class ="negrito">Soluções em segurança</span><br> Veja tudo que a Unikon pode oferecer</h2>
+             <ul class = "lista-beneficios">
+              <li>
+                <div class = "titulo-solucoes">
+                  <img src = "imagens/porteiro-remoto.png">
+                  <h3>Portaria Remota</h3>
+                </div>
+                <p>O porteiro físico é substituído por um profissional instalado dentro de um ambiente seguro e protegido em
+                  nossa central de monitoramento, aumentando a segurança e evitando a rendição do mesmo em caso de um assalto.</p>
+                  <a href="portaria-remota.html">Saiba mais</a>
+              </li>
+              <li>
+                <div class = "titulo-solucoes">
+                  <img src = "imagens/controle-acesso.png">
+                  <h3>Controle de Acesso</h3>
+                </div>
+                <p>Catracas, leitura biométrica e cartões com sensor de proximidade. Descubra como o controle de acesso pode 
+                  ser utilizado para garantir a segurança, o acesso e o monitoramento de atividades em ambientes residenciais,
+                  empresariais e corporativos. </p>
+                  <a href="controle-acesso.html">Saiba mais</a>
+              </li>
+              <li>
+                <div class = "titulo-solucoes">
+                  <img src = "imagens/camera-seguranca.png">
+                  <h3>Projetos sob demanda</h3>
+                </div>
+                <p>Seja para um ambiente corporativo, residencial ou comercial, a Unikon está preparada para construir projetos de
+                  segurança junto com você. Entre em contato para descobrir como podemos ajudar a implementar a melhor solução em
+                  segurança para o seu patrimônio  </p>
+
+                  <a href="#contato">Entre em contato</a>
+              </li>
+            </ul>
+          </div>
 			</section>
 
-		<section class = "secao-controle-acesso">
-			<div class = "caixa-home-controle-acesso"> 
-					<h2> Soluções para Controle de Acesso</h2>
-					<p>Catracas, leitura biométrica e cartões com sensor de proximidade, são só algumas das possibilidades de controle de acesso que a Unikon oferece para sua empresa ou residência. Descubra como os equipamentos de controle de acesso podem ser utilizados para garantir a segurança, o acesso e o monitoramento de atividades em ambientes residenciais,empresariais e corporativos.</p>
+      <section class = "secao-app">
+          <div class = "caixa-app">
 
-					<p class = "controle-link-pagina"><a href="www.google.com.br">
-					Conheça nossas soluções em controle de acesso ></a></p>
+             <ul class = "lista-app">
+              <li>
+                  <img src = "imagens/man-phone.jpg">
+              </li>
 
-			</div>
-
-		
-
+              <li>
+                <div class="square4"></div>
+                <h2><span class = "negrito">Acompanhamento individual</span><br> de entrada e saída</h2>
+                <p>Sempre que for entrar ou sair do seu patrimônio, basta nos avisar por meio do aplicativo
+                  para que nossos operadores monitorem sua movimentação em tempo real. Nosso app também permite
+                  o rastreamento de celulares de familiares ou funcionários, assim como o monitoramento de
+                  entrada e saída de perímetros. Você também receberá uma notificação toda vez que armar ou
+                  desarmar o alarme para melhor controle do acesso.  </p>
+              </li>
+            </ul>
+          </div>
 			</section>
 
+      <section class = "secao-chamada-ca">
+          <div class = "caixa-chamada-ca">
+            <div class = "conteudo-chamada-ca">
 
-			<section id = "ancora-ComoFunciona" class = "como-funciona">
-				<div class = "caixa-como-funciona-seguranca">
-						<h2>Como Funciona</h2>
-						<img class = "tecnico" src = "imagens\tecnico.webp">
+                <h2>Controle de Acesso</h2>
 
-						<h3 class = "seguranca"> Segurança </h3>
-						<p class = "descritivo-seguranca">O sistema Unikon é projetado para suportar mais de 4h de queda de energia. Caso a energia não seja restabelecida em 3h, um funcionário permanecerá no local até que a situação se regularize. Também para garantir a segurança, todos os dias um supervisor motorizado passa pelo local para conferir o sistema e checar anormalidades no perímetro.</p>
+                <p>Catracas, leitura biométrica e cartões com sensor de proximidade.
+                  Descubra como o controle de acesso pode ser utilizado para garantir a segurança,
+                  o acesso e o monitoramento de atividades em ambientes residenciais, empresariais e corporativos.  </p>
 
-						<img class = "homem-celular" src = "imagens\homem-celular.webp">
-						<h3 class= "controle-aplicativo"> Controle tudo por aplicativo </h3>
-						<p class="descritivo-aplicativo">Sempre que for entrar ou sair do seu patrimônio, basta nos avisar por meio do aplicativo para que nossos operadores monitorem sua movimentação em tempo real. Nosso app também permite o rastreamento de celulares de familiares ou funcionários, assim como o monitoramento de entrar e saída de perímetros. Você também receberá uma notificação toda vez que armar ou desarmar o alarme para melhor controle do acesso. </p>
-				</div>
-
+                  <a href="controle-acesso.html">Saiba mais</a>
+            </div>
+          </div>
 			</section>
 
-			<section class = "portaria-remota">
-				<div class = "caixa-portaria-remota">
-					<h2> Portaria Remota 24h</h2>
-						<p>A tecnologia atual já permite automatizar os processos de uma portaria. 
-						O porteiro físico é substituído por um profissional instalado dentro de um ambiente seguro e protegido em nossa central de monitoramento, aumentando a segurança e evitando a rendição do mesmo em caso de um assalto. Garantindo ainda mais segurança, toda entrada e saída de veículos ou pessoas é registrado, filmado e gravado para consultas</p>
-
-						<!--Campo de botão  --> 
-					<input class = "botao-contato-portaria" type="submit" value = "Entre em contato agora">
-				
-				</div>
-
+       <section class = "secao-beneficios">
+          <div class = "caixa-beneficios">
+            <div class="square"></div>
+            <h2> Serviços de apoio e backup</h2>
+             <ul class = "lista-beneficios">
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/server-cor.svg">
+                  <h3>Backup na nuvem</h3>
+                </div>
+                <p>Em casos de furto ou avaria do equipamento de gravação no local,
+                  o arquivamento na nuvem garante que imagens registradas não serãoperdidas e poderão ser acessadas normalmente.</p>
+              </li>
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/cycle-cor.svg">
+                  <h3>Ronda virtual</h3>
+                </div>
+                <p>Todos os dias será acionada a ronda virtual, que tem como objetivo verificar a conexão do sistema,
+                  o funcionamento das câmeras e outras situações específicas solicitadas pelo cliente.</p>
+              </li>
+              <li>
+                <div class = "titulo-beneficios">
+                  <img src = "icones/svg-cor/car-cor.svg">
+                  <h3>Apoio de viatura</h3>
+                </div>
+                <p>Em caso de arrombamento ou intrusão, um supervisor motorizado é encaminhado ao local
+                  para checar a veracidade do sinal e para acompanhar a vistoria e o contato com autoridades. </p>
+              </li>
+            </ul>
+          </div>
 			</section>
 
-			<section id = "ancora-Clientes" class ="quem-confia">
-				<h2>Quem confia na Unikon</h2>
-				<ul class = "lista-logos">
-					<li class = "blusiegel"><img src = "logos\blusiegel.png"></li>
-					<li class = "brasanitas"><img src = "logos\logo_brasanitas.png"></li>	
-					<li class = "natura"><img src = "logos\natura.png"></li>
-					<li class = "sansung"><img src = "logos\samsung.png"></li>
-					<li class = "blusiegel"><img src = "logos\zimarine_logo.png"></li>		
+      <section class = "clientes" id="clientes">
+        <div class = "caixa-clientes">
+          <h2>Quem confia na Unikon</h2>
 
-				</ul>
+          <ul class = "lista-clientes">
+            <li><img src="logos/blusiegel.png" alt=""></li>
+            <li><img src="logos/logo_brasanitas.png" alt=""></li>
+            <li><img src="logos/natura.png" alt=""></li>
+            <li><img src="logos/samsung.png" alt=""></li>
+            <li><img src="logos/zimarine_logo.png" alt=""></li>
+          </ul>
+        </div>
+      </section>
 
+      <section class = "secao-chamada-pr">
+          <div class = "caixa-chamada-pr">
+            <div class = "conteudo-chamada-pr">
+
+                <h2>Portaria Remota</h2>
+
+                <p>A tecnologia atual já permite automatizar os processos de uma portaria. 
+                  O porteiro físico é substituído por um profissional instalado dentro de um ambiente seguro e
+                  protegido em nossa central de monitoramento, aumentando a segurança e evitando a rendição do mesmo
+                  em caso de um assalto. Garantindo ainda mais segurança, toda entrada e saída de veículos ou pessoas é
+                  registrado, filmado e gravado para consultas futuras.   </p>
+
+                  <a href="portaria-remota.html">Saiba mais</a>
+            </div>
+          </div>
 			</section>
 
-			<form>
-				<div class = "form-contato">
-					<h3 id = "ancora-Contato">Solicite um contato</h3>
-					<p>Juntos vamos encontrar a melhor <br> solução para a sua demanda</p>
+      <section class = "contato" id = "contato">
+        <div class = "caixa-contato">
+          <div class = "informacoes-contato">
+              <h3 class = "titulo-contato">Contato</h3>
+              <p>Juntos vamos encontrar a melhor solução para a sua demanda</p>
 
-						
-						<label for="nomesobrenome">Nome</label>
-						<input type="text" id="nomesobrenome" class="input-padrao" required>
-					
+              <h4>Telefone/Whatsapp</h4>
+              <p><a href="https://api.whatsapp.com/send?phone=5511983431521">(11)98343-1521</a></p>
+              <h4>E-mail</h4>
+              <p><a href="mailto:comercial@unikon.com">comercial@unikon.com.br</a></p>
+          </div>
 
-						<label  for="telefone">Telefone</label>
-						<input type="text" id="telefone" class = "input-padrao" placeholder="(XX) XXXXX-XXXX">
-					
+              <div class = "formulario-contato">
 
-						<label  for="email">Email</label>
-						<input type="email" id="nomesobrenome" class="input-padrao" required placeholder="email@seudominio.com">
-		
-						<label  for="mensagem">Mensagem</label>
-						<textarea cols ="50" rows ="10" id="mensagem" class = "input-padrao" placeholder="Escreva sua mensagem"></textarea>
+                <div id="fcf-form">
+                  <h3 class="titulo-formulario">Solicite um contato</h3>
 
-						<input class = "botao-solicitar-contato" type="submit" value = "Envie sua mensagem">
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
 
-				</div>
+                  <div class="fcf-form-group">
+                      <label for="Name" class="fcf-label">Nome</label>
+                      <div class="fcf-input-group">
+                          <input type="text" id="Name" name="Name" class="fcf-form-control" required placeholder = "Digite seu nome">
+                      </div>
+                  </div>
 
+                  <div class = "flex-telmail">
 
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Telefone</label>
+                        <div class="fcf-input-group">
+                            <input type="tel" id="Phone" name="Phone" class="fcf-form-control" required placeholder = "Digite seu nome">
+                        </div>
+                    </div>
 
-			</form>
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">e-mail</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required placeholder = "nome@email.com">
+                        </div>
+                    </div>
 
-		</main>
+                  </div>
 
+                  <div class="fcf-form-group">
+                      <label for="Message" class="fcf-label" value = "Conte-nos como podemos te ajudar">Mensagem</label>
+                      <div class="fcf-input-group">
+                          <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                      </div>
+                  </div>
 
+                  <div class="fcf-form-group">
+                      <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Enviar mensagem</button>
+                  </div>
 
-		<footer>
-			
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
+    </main>
+      <footer>
+        <div class = "caixa-footer">
+            <div class = "sobre-footer">
+              <h4>Sobre a Unikon</h4>
+              <p>A Unikon é uma empresa tradicional no mercado de segurança eletrônica no Brasil e atua há mais de 20 anos desenvolvento projetos de segurança com foco em monitoramento 24h.</p>
 
-		</footer>
+              <h3>© 2020 por Phenomena Design</h3>
+            </div>
+            <div class = "menu-footer">
+              <ul>
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "index.html#conheca">Quem Somos</a></li>
+                <li><a href = "index.html#servicos">Serviços</a></li>
+                <li><a href = "index.html#servicos">Soluções em Segurança</a></li>
+                <li><a href = "index.html#clientes">Clientes</a></li>
+                <li><a href = "index.html#contato">Contato</a></li>
+              </ul>
+            </div>
+        </div>
+     </footer>
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src = "scripts/smoothscroll.js"></script>
+      <script src = "scripts/menuhamburguer.js"></script>
 
-	</body>
+        <body>
+    <html>
+

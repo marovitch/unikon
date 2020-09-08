@@ -1,0 +1,480 @@
+/**************************************/
+/************ACOMPANHAMENTO************/
+/**************************************/
+
+  .secao-pr{
+    background-color:var(--cinzatextos);
+  }
+
+  .caixa-pr{
+    width:1100px;
+    margin:0px auto;
+    padding:10px;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-pr h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:55px;
+    line-height:1em;
+    margin:30px 0 20px 0;
+     color: white;
+  }
+
+  .caixa-pr img{
+    width:550px;
+    margin:30px 0;
+  }
+
+  .caixa-pr ul{
+    display:grid;
+    list-style:none;
+    grid-template-columns: 550px 500px;
+    gap:40px;
+    margin:180px 0 40px 0;
+  }
+
+  .caixa-pr p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    color: white;
+  }
+
+  .caixa-pr a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    margin-top:40px;
+
+    background-color:var(--verdelimao);
+    color: black;
+    box-sizing: border-box;
+    padding:20px 60px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  @media(max-width:1140px){
+    .caixa-pr ul{
+      grid-template-columns: 400px 380px;
+    }
+
+    .caixa-pr{
+      width:800px;
+    }
+    .caixa-pr img{
+      width:400px;
+    }
+    .caixa-pr h2{
+      font-size:30px;
+    }
+
+    .secao-pr{
+      width:100%;
+    }
+  }
+
+  @media (max-width:800px){
+
+    .caixa-pr{
+      width:100%;
+      padding:10px 0;
+    }
+    .caixa-pr ul{
+      grid-template-columns: 300px 350px;
+      align-content:center;
+      justify-content:center;
+    }
+    .caixa-pr img{
+      width:300px;
+    }
+  }
+
+  @media (max-width:450px){
+    .caixa-pr{
+      width:100%;
+      padding:10px 0;
+    }
+    .caixa-pr ul{
+      grid-template-columns: repeat(1, 300px);
+      justify-content:center;
+      gap:30px;
+    }
+
+    .caixa-pr a{
+      padding:15px 30px;
+      width:100%;
+      text-align:center;
+    }
+
+    .caixa-pr img{
+      width:300px;
+    }
+  }
+
+
+
+
+/**************************************/
+/*************BENEFÍCIOS***************/
+/**************************************/
+
+
+  .square4 {
+    height: 5px;
+    width: 60px;
+    background-color: var(--verdeescuro);
+  }
+
+
+
+  .secao-beneficios-pr{
+    height:550px;
+    width:100%;
+  }
+
+  .caixa-beneficios-pr{
+    width:1100px;
+    margin:0 auto;
+    padding:10px;
+  }
+
+  .secao-beneficios-pr h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--cinzatextos);
+    line-height:1.05em;
+    font-weight:400;
+    font-size:40px;
+    margin:50px 0 70px 0;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-beneficios-pr h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:25px;
+    margin-left:20px;
+    line-height:1.2em;
+  }
+
+  .caixa-beneficios-pr img{
+    height:60px;
+  }
+
+
+  .caixa-beneficios-pr ul{
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(3, 320px);
+    gap:60px;
+  }
+
+  .titulo-beneficios-pr{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+
+  }
+
+  .caixa-beneficios-pr p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    padding:20px 0;
+    color: var(--cinzatextos);
+
+  }
+
+
+  @media(max-width:1140px){
+    .caixa-beneficios-pr{
+      width:800px;
+    }
+    .caixa-beneficios-pr ul{
+      display:grid;
+      list-style:none;
+      grid-template-columns: repeat(3, 225px);
+      gap:60px;
+    }
+
+    .caixa-beneficios-pr h3{
+      font-size:20px;
+    }
+  }
+
+  @media (max-width:800px){
+
+    .caixa-beneficios-pr{
+      width:100%;
+      padding:10px 0;
+    }
+    .caixa-beneficios-pr ul{
+      grid-template-columns: repeat(3, 200px);
+      gap:40px;
+      justify-content:center;
+    }
+
+    .caixa-beneficios-pr h2{
+      text-align:center;
+    }
+
+    .caixa-beneficios-pr h3{
+      font-size:18px;
+    }
+
+}
+
+
+  @media (max-width:450px){
+    .caixa-beneficios-pr ul{
+      grid-template-columns: repeat(1, 300px);
+      gap:30px;
+      text-align:center;
+      align-content: center;
+
+    }
+
+    .lista-pr h2{
+      margin:0px 0px 20px 0;
+    }
+
+    .lista-beneficios-pr{
+      width:300px;
+      margin:0px 55px;
+    }
+
+    .caixa-beneficios-pr{
+      width:100%;
+     padding:0px;
+     height:100%px;
+     padding:10px 0;    }
+
+    .caixa-beneficios-pr h2{
+      font-size:25px;
+      text-align:center;
+    }
+
+    .caixa-beneficios-pr h3 {
+      text-align:left;
+      font-size:20px;
+    }
+
+    .caixa-beneficios-pr img{
+      width::60px;
+    }
+
+    .secao-beneficios-pr{
+      height:100%;
+    }
+
+
+
+  }
+
+
+/**************************************/
+/***************ENTREGA****************/
+/**************************************/
+
+.secao-entrega{
+    width:100%;
+  }
+
+  .caixa-entrega{
+    width:1100px;
+    margin:10px auto;
+    padding:10px;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-entrega h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    line-height:1em;
+    margin:30px 0 20px 0;
+     color: var(--cinzatextos);
+  }
+
+  .caixa-entrega img{
+    width:550px;
+  }
+
+  .caixa-entrega ul{
+    display:grid;
+    list-style:none;
+    grid-template-columns: 550px 500px;
+    gap:40px;
+    margin:80px 0;
+  }
+
+  .caixa-entrega p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    color: var(--cinzatextos);
+  }
+
+  @media (max-width:1140px){
+    .caixa-entrega ul{
+      grid-template-columns: 300px 480px;
+    }
+
+    .caixa-entrega img{
+      width:300px;
+    }
+
+    .caixa-entrega p{
+      font-style:16px;
+    }
+
+    .caixa-entrega{
+      width:800px;
+
+    }
+
+    @media (max-width:800px){
+      .caixa-entrega ul{
+        grid-template-columns: repeat(1,500px);
+        gap:40px;
+        align-content:center;
+        justify-content:center;
+      }
+      .caixa-entrega img{
+        width:500px;
+      }
+    }
+  }
+
+  @media (max-width:800px){
+    .caixa-entrega{
+      width:100%;
+      padding:10px 0;
+    }
+  }
+
+  @media (max-width:450px){
+    .caixa-entrega ul{
+      grid-template-columns: repeat(1, 300px);
+      justify-content:center;
+    }
+
+    .caixa-entrega {
+      width:100%;
+      padding: 10px 0;
+    }
+
+    .lista-entrega{
+      width:100%;
+    }
+
+    .secao-entrega h2{
+      text-align:center;
+      font-size:30px;
+    }
+
+    .secao-entrega{
+      text-align:center;
+    }
+
+    .caixa-entrega img {
+      width:300px;
+    }
+
+  }
+
+
+
+/**************************************/
+/*************MAIOR SEGURANÇA**********/
+/**************************************/
+
+.square5 {
+    height: 5px;
+    width: 60px;
+    background-color: var(--verdelimao);
+    margin: 40px auto 20px auto;
+
+  }
+
+.maior-seguranca {
+    background-color: var(--verdemedio);
+    color: white;
+    height:420px;
+}
+.caixa-maior-seguranca{
+    width:800px;
+    margin:0 auto;
+    text-align:center;
+    padding:10px;
+}
+
+.caixa-maior-seguranca h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    margin-top:20px;
+
+}
+
+.caixa-maior-seguranca p {
+    font-size:16px;
+    font-family: 'Raleway', sans-serif;
+    margin:40px 0;
+    line-height:1.5em;
+}
+
+.maior-seguranca a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    margin-top:40px auto;
+
+    background-color:var(--verdelimao);
+    color: black;
+    box-sizing: border-box;
+    padding:20px 60px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  @media (max-width:800px){
+    .caixa-maior-seguranca{
+      width:100%;
+      padding:10px 0;
+    }
+  }
+
+  @media (max-width:450px){
+    .caixa-maior-seguranca{
+      width:100%;
+      padding:10px 0;
+    }
+
+    .caixa-maior-seguranca p {
+      margin:40px;
+    }
+
+  .caixa-maior-seguranca h3 {
+    margin:40px;
+    font-size:30px;
+  }
+  .maior-seguranca {
+    height:520px;
+}
+
+
+  }

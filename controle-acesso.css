@@ -1,0 +1,504 @@
+*{ /* SERVE PARA RESETAR CONFIGURAÇÕES PADRÃO DO HTML*/
+	margin:0;
+	padding:0;
+}
+
+:root {
+  --cinzaescuro: #605E5E;
+  --cinzatextos: #2F2E2E;
+  --verdeescuro: #008080;
+  --verdemedio:#03998F;
+  --verdelimao:#37CC5F;
+  --bordapadrao:30px;
+}
+
+/**************************************/
+/************CONTROLE ACESSO***********/
+/**************************************/
+
+.square3 {
+    height: 5px;
+    width: 60px;
+    margin-top:70px;
+    background-color:white;
+    margin:80px auto 30px auto;
+  }
+
+
+  .controle-acesso{
+    width:100%;
+    background-color:var(--cinzatextos);
+  }
+
+  .caixa-ca{
+    width:1100px;
+    margin:0 auto;
+    padding:10px;
+    height:1050px;
+
+  }
+
+  .controle-acesso h2{
+    font-family: 'Titillium Web', sans-serif;
+    line-height:1.05em;
+    font-weight:400;
+    font-size:50px;
+    margin:200px 0 20px 0;
+    text-align: center;
+    color:white;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .controle-acesso h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:200;
+    font-size:30px;
+    line-height:1.2em;
+    margin:10px 0 60px 0;
+    text-align: center;
+    color:white;
+  }
+
+  .controle-acesso h3{
+      margin:20px 0;
+      text-align:left;
+      color:var(--verdelimao);
+      font-family: 'Titillium Web', sans-serif;
+      font-weight:600;
+      font-size:25px;
+  }
+
+  .caixa-ca img{
+    width:400px;
+  }
+
+  .caixa-ca ul{
+    height:540px;
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(2, 400px);
+    gap:100px;
+    margin-bottom:80px;
+    margin:0 100px;
+
+  }
+
+  .caixa-ca li {
+    color:white;
+  }
+
+  .caixa-ca p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+  }
+
+  .controle-acesso a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    margin:0 380px 4px 380px;
+
+    background-color:var(--verdelimao);
+    color: black;
+    box-sizing: border-box;
+    padding:20px 60px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  .fale-ca{
+      margin-bottom:40px;
+  }
+
+  .controle-acesso a:hover{
+    background-color:var(--verdemedio);
+    color:white;
+  }
+
+
+  @media (max-width:1140px){
+
+  .caixa-ca ul{
+    height:540px;
+    width:800px;
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(2, 350px);
+    gap:100px;
+    margin:0 auto;
+
+  }
+  .caixa-ca {
+    width:800px;
+  }
+
+  .caixa-ca img{
+    width:350px;
+  }
+
+  .controle-acesso a{
+    display:inline-block;
+    margin:0 230px 0 230px;
+  }
+}
+
+@media (max-width:800px){
+  .caixa-ca,
+  .caixa-comofunciona-ca{
+    width:100%;
+    padding:10px 0;
+  }
+
+  .caixa-ca ul{
+    grid-template-columns: repeat(2, 300px);
+    justify-content:center;
+    gap:30px;
+    width:100%;
+  }
+
+  .caixa-ca img{
+    width:300px;
+  }
+
+  .caixa-ca a{
+    margin: 0 215px;
+  }
+
+  .caixa-ca h4{
+    font-size:20px;
+    }
+}
+
+
+
+@media (max-width:450px){
+  .caixa-ca{
+    width:100%;
+    padding:10px 0;
+    height:auto;
+  }
+
+  .caixa-ca ul {
+    grid-template-columns: repeat(1, 300px);
+    width:100%;
+    height:100%;
+    justify-content:center;
+    gap:40px;
+    margin-bottom:30px;
+  }
+
+  .caixa-ca h4{
+    font-size:20px;
+    padding:0px 40px;
+  }
+
+  .caixa-ca h2{
+    font-size:30px;
+    padding:0px 40px;
+  }
+
+  .titulo-ca img{
+  width:300px;
+}
+
+  .caixa-ca .lista-beneficios-ca{
+    width:100%;
+    height:100%;
+  }
+
+  .fale-ca a{
+    margin: 0 40px;
+
+  }
+}
+
+
+
+/**************************************/
+/***********ENTENDA CA*****************/
+/**************************************/
+
+
+  .secao-comofunciona-ca{
+    width:100%;
+  }
+
+  .caixa-comofunciona-ca{
+    width:1100px;
+    margin:0 auto;
+    padding:10px;
+  }
+
+  .secao-comofunciona-ca h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--cinzatextos);
+    line-height:1.05em;
+    font-weight:400;
+    font-size:40px;
+    margin:50px 0 70px 0;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .caixa-comofunciona-ca li{
+      background-color:var(--verdemedio);
+      color:white;
+      padding:40px;
+  }
+
+  .secao-comofunciona-ca h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:25px;
+    margin-left:20px;
+    line-height:1.2em;
+  }
+
+  .caixa-comofunciona-ca img{
+    height:60px;
+  }
+
+  .caixa-comofunciona-ca ul{
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(2, 525px);
+    gap:50px;
+    margin-bottom:40px;
+  }
+
+  .titulo-comofunciona-ca{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+
+  }
+
+  .caixa-comofunciona-ca p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    padding:20px 0;
+
+  }
+
+  @media (max-width:1140px){
+
+  .caixa-comofunciona-ca ul{
+    grid-template-columns: repeat(2, 380px);
+    margin: 0 auto;
+  }
+  .caixa-comofunciona-ca{
+    width:800px;
+    margin:0 auto;
+    padding:10px;
+  }
+
+  .caixa-comofunciona-ca p {
+    font-size:14px;
+  }
+}
+
+  @media (max-width:800px){
+
+    .caixa-comofunciona-ca {
+      width:100%;
+      padding:10px 0;
+    }
+
+    .caixa-comofunciona-ca h2 {
+      font-size:30px;
+      text-align:center;
+    }
+
+
+    .caixa-comofunciona-ca ul{
+      grid-template-columns: repeat(2, 320px);
+      justify-content:center;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width:450px){
+    .caixa-comofunciona-ca ul{
+      grid-template-columns: repeat(1, 300px);
+      justify-content:center;
+    }
+
+    .caixa-comofunciona-ca{
+      width:100%;
+      margin:0 auto;
+      padding:10px 0;
+    }
+
+    .caixa-comofunciona-ca h2{
+      font-size:30px;
+      text-align:center;
+    }
+  }
+
+/**************************************/
+/****SOLUCOES EM CONTROLE DE ACESSO****/
+/**************************************/
+/**JÁ TEM EM OUTRO ARQUIVO****/
+
+.square {
+    height: 5px;
+    width: 60px;
+    margin-top:70px;
+    background-color: var(--verdeescuro);
+  }
+
+
+  .secao-solucoes-ca{
+    width:100%;
+  }
+
+  .caixa-solucoes-ca{
+    width:1100px;
+    margin:0 auto;
+    padding:10px;
+  }
+
+  .secao-solucoes-ca h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--cinzatextos);
+    line-height:1.05em;
+    font-weight:400;
+    font-size:40px;
+    margin:50px 0 100px 0;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-solucoes-ca h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    font-size:25px;
+    line-height:1.2em;
+    margin:30px 0 20px 0;
+  }
+
+  .caixa-solucoes-ca img{
+    width:150px;
+    display:block;
+    margin:0 auto;
+  }
+
+  .caixa-solucoes-ca ul{
+    height:450px;
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(3, 310px);
+    gap:80px;
+    margin-bottom:80px;
+
+  }
+
+  .caixa-solucoes-ca li {
+    background: white;
+    position: relative;
+  }
+
+
+  .caixa-solucoes-ca p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    color: var(--cinzatextos);
+  }
+
+  .caixa-solucoes-ca a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    position: absolute;
+    bottom:0;
+    background-color:var(--verdemedio);
+    color: white;
+    box-sizing: border-box;
+    padding:15px 40px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  .caixa-solucoes-ca a:hover{
+    background-color:var(--verdelimao);
+    color:black;
+  }
+
+
+  @media (max-width:1140px){
+
+    .caixa-solucoes-ca ul{
+      grid-template-columns: repeat(3, 250px);
+      gap:15px;
+      height:500px;
+    }
+
+    .caixa-solucoes-ca{
+      width:800px;
+    }
+
+    .secao-solucoes-ca h3{
+      font-size:20px;
+
+    }
+  }
+
+  @media (max-width:800px){
+    .caixa-solucoes-ca{
+      width:100%;
+      padding:10px 0;
+    }
+
+    .caixa-solucoes-ca h2{
+      font-size:30px;
+      text-align:center;
+    }
+
+    .caixa-solucoes-ca ul{
+      grid-template-columns: repeat(3, 220px);
+      justify-content:center;
+    }
+  }
+
+  @media (max-width:450px){
+    .caixa-solucoes-ca ul{
+      grid-template-columns: repeat(1, 300px);
+      gap:60px;
+      height:100%;
+      justify-content:center;
+    }
+
+    .caixa-solucoes-ca h2{
+      font-size:30px;
+      margin:40px;
+      text-align:center;
+    }
+
+    .caixa-solucoes-ca{
+      width:100%;
+      padding:10px 0;
+    }
+
+    .lista-beneficios-ca li{
+      width:100%;
+      height:460px;
+    }
+
+
+  }
+
+
+
+

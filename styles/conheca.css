@@ -1,0 +1,165 @@
+
+/**************************************/
+/*************CONHEÇA A UNIKON*********/
+/**************************************/
+
+
+.secao-conheca{
+    background-image: url("../imagens/controle-acesso-cor.png");
+    background-size: cover;
+    background-position: center;
+    min-height:720px;
+    width:100%;
+  }
+
+  .caixa-conheca{
+    width:1100px;
+    padding:10px;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+  }
+
+
+
+  .square1 {
+    height: 5px;
+    width: 60px;
+    margin:50px auto 10px auto;
+    background-color: var(--verdelimao);
+    text-align:center;
+  }
+
+  .caixa-conheca h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:45px;
+    margin:40px auto 50px auto;
+    font-weight:600;
+  }
+
+  .caixa-conheca p{
+    font-family: 'Raleway', sans-serif;
+    font-size:18px;
+    line-height: 1.5em;
+    letter-spacing:0.05em;
+    color:white;
+    list-style-type:none;
+  }
+
+  .caixa-caracteristicas{
+    display:grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 60px 60px;
+    margin:60px 0;
+    align-content: center;
+    justify-content:center;
+    list-style-type:none;
+  }
+
+  .caixa-caracteristicas li{
+    box-sizing: border-box;
+    width:250px;
+    height:150px;
+    border: 3px solid white;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  .caixa-caracteristicas,
+  .caixa-caracteristicas li{
+    align-items: center;
+    justify-content: center
+  }
+
+  @media (max-width:1140px){
+
+  .caixa-conheca{
+    width:100%;
+    margin: 0 auto;
+    padding:10px 0;
+  }
+  .caixa-caracteristicas{
+    grid-template-columns: repeat(3, 250px);
+    gap:15px;
+    justify-content: center
+  }
+
+  .caixa-conheca p{
+    margin: 0 20px;
+  }
+
+
+  .caixa-caracteristicas p{
+    font-size:16px;
+  }
+
+  .lista-caracteristicas ul{
+   width:100%;
+  }
+
+  .caixa-conheca h3{
+    font-size:20px;
+  }
+}
+
+@media (max-width:800px){
+
+  .caixa-conheca p{
+    margin: 0 40px;
+  }
+
+  .caixa-caracteristicas{
+    grid-template-columns: repeat(3, 220px);
+
+  }
+
+  .caixa-caracteristicas li{
+    height:150px;
+    width:220px;
+  }
+}
+
+@media (max-width:450px){
+
+  .caixa-conheca{
+    padding:5px 0px;
+  }
+
+  .caixa-caracteristicas{
+    grid-template-columns: repeat(1, 250px);
+    width:100%;
+    align-content:center;
+    justify-content:center;
+    margin:40px auto;
+  }
+
+  .titulo-caracteristicas{
+    box-sizing: border-box;
+    width:100%;
+    border: 3px solid white;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  .caixa-conheca p{
+    font-size:16px;
+    margin:40px;
+
+  }
+
+  .caixa-conheca h2{
+    font-size:30px;
+    margin:20px 0px 0px 0px;
+  }
+
+  .caixa-conheca li {
+    width:250px;
+  }
+
+
+
+}

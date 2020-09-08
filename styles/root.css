@@ -1,0 +1,13 @@
+*{ /* SERVE PARA RESETAR CONFIGURAÇÕES PADRÃO DO HTML*/
+	margin:0;
+	padding:0;
+}
+
+:root {
+  --cinzaescuro: #605E5E;
+  --cinzatextos: #2F2E2E;
+  --verdeescuro: #008080;
+  --verdemedio:#03998F;
+  --verdelimao:#37CC5F;
+  --bordapadrao:30px;
+}

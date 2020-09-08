@@ -1,0 +1,204 @@
+/**************************************/
+/****************SOLUCOES**************/
+/**************************************/
+
+.square {
+    height: 5px;
+    width: 60px;
+    margin-top:70px;
+    background-color: var(--verdeescuro);
+  }
+
+  .secao-solucoes{
+    width:100%;
+  }
+
+  .caixa-solucoes{
+    width:1100px;
+    margin:0 auto;
+    padding:10px;
+  }
+
+  .secao-solucoes h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--cinzatextos);
+    line-height:1.05em;
+    font-weight:400;
+    font-size:40px;
+    margin:50px 0 70px 0;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-solucoes h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    font-size:25px;
+    line-height:1.2em;
+    margin:30px 0 20px 0;
+  }
+
+  .caixa-solucoes img{
+    width:340px;
+  }
+
+  .caixa-solucoes ul{
+    height:580px;
+    display:grid;
+    list-style:none;
+    grid-template-columns: repeat(3, 340px);
+    gap:40px;
+    margin-bottom:80px;
+
+  }
+
+  .caixa-solucoes li {
+    background: white;
+    position: relative;
+  }
+
+
+  .caixa-solucoes p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    color: var(--cinzatextos);
+  }
+
+  .caixa-solucoes a{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    display:inline-block;
+    position: absolute;
+    bottom:0;
+    background-color:var(--verdemedio);
+    color: white;
+    box-sizing: border-box;
+    padding:15px 40px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+    text-decoration:none;
+  }
+
+  .caixa-solucoes a:hover{
+    background-color:var(--verdelimao);
+    color:black;
+  }
+
+
+  @media (max-width:1140px){
+    .caixa-solucoes ul{
+      grid-template-columns: repeat(3, 250px);
+      gap:40px;
+      height: auto;
+      justify-content: center;
+      align-content: center;
+      width:100%;
+    }
+
+    .secao-solucoes h2{
+     text-align:center;
+    }
+
+
+  .caixa-solucoes img{
+    width:250px;
+  }
+
+  .caixa-solucoes .lista-beneficios{
+    width:100%;
+    margin: 0 auto;
+  }
+  .caixa-solucoes{
+    width:100%;
+    margin-bottom:80px;
+    padding:10px 0;
+    }
+
+    .caixa-solucoes li{
+      height:600px;
+    }
+    .caixa-solucoes h3{
+      font-size:20px;
+     }
+
+  }
+
+  @media (max-width:800px){
+    .caixa-solucoes ul{
+      grid-template-columns: repeat(3, 200px);
+      gap:40px;
+      height: auto;
+      justify-content: center;
+      align-content: center;
+      width:100%;
+    }
+
+    .caixa-solucoes img{
+      width:200px;
+    }
+
+    .caixa-solucoes li{
+      height:600px;
+    }
+
+    .caixa-solucoes a{
+      padding:15px 30px;
+    }
+
+    .caixa-solucoes h3{
+      font-size:20px;
+     }
+
+  }
+
+  @media (max-width:450px){
+    .caixa-solucoes ul{
+      grid-template-columns: repeat(1, 300px);
+      gap:40px;
+      height: auto;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .caixa-solucoes{
+      padding:0;
+    }
+
+    .caixa-solucoes li{
+      height:550px;
+    }
+
+    .caixa-solucoes img{
+      width:300px;
+    }
+
+    .caixa-solucoes a{
+      display:block;
+      padding:15px 40px;
+      margin: 0 auto;
+
+    }
+
+    .secao-solucoes h2{
+      width:100%;
+      font-size:20px;
+     }
+
+     .caixa-solucoes h3{
+      font-size:20px;
+     }
+
+     .caixa-solucoes{
+       width:100%;
+     }
+
+    .caixa-solucoes .lista-beneficios{
+      width:100%;
+      margin: 0 auto;
+    }
+
+
+  }

@@ -1,1 +1,4 @@
 fundo claro - #F2F7FF
+
+ícones:
+#03998F

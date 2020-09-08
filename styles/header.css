@@ -1,0 +1,365 @@
+*{ /* SERVE PARA RESETAR CONFIGURAÇÕES PADRÃO DO HTML*/
+	margin:0;
+	padding:0;
+}
+
+:root {
+  --cinzaescuro: #605E5E;
+  --cinzatextos: #2F2E2E;
+  --verdeescuro: #008080;
+  --verdemedio:#03998F;
+  --verdelimao:#37CC5F;
+  --bordapadrao:30px;
+}
+/**************************************/
+/*************FAIXA SUPERIOR***********/
+/**************************************/
+
+
+.contato-superior{
+    width:100%;
+    background-color: var(--cinzaescuro);
+    list-style:none;
+  }
+
+  .caixa-superior {
+    max-width:1100px;
+    height:30px;
+    display:flex;
+    color:white;
+    margin:0 auto;
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .caixa-superior ul{
+    font-family: 'Raleway', sans-serif;
+    font-size:16px;
+    list-style:none;
+  }
+
+  .caixa-superior li a{
+    text-decoration:none;
+    color:white;
+  }
+
+
+  /**************************************/
+  /****************MENU******************/
+  /**************************************/
+
+  .square2 {
+    height: 5px;
+    width: 60px;
+    margin-top:70px;
+    background-color: var(--verdeescuro);
+  }
+
+  .full-nav{
+    position:fixed;
+    z-index:1;
+    width:100%;
+  }
+
+
+  .logo{
+      width:150px;
+  }
+
+  .menu {
+    background-color:white;;
+    box-shadow: 0px 1px 2px lightgray;
+  }
+
+  .caixa-menu{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width:1100px;
+    padding:0 15px;
+    height:80px;
+  }
+
+  .caixa-menu ul {
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .menu a{
+    color: var(--cinzaescuro);
+    font-size:18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    margin-left:20px;
+    padding: 40px 0;
+    text-decoration:none;
+  }
+
+  .menu a:hover{
+    color: var(--verdemedio);
+  }
+
+  .menu .a-btn-contato {
+    background-color:var(--verdemedio);
+    color: white;
+    box-sizing: border-box;
+    padding:15px 40px;
+    border-radius: var(--bordapadrao);
+    transition: background-color, color 0.5s;
+  }
+
+  .menu-normal .a-btn-contato:hover {
+    background-color:var(--verdelimao);
+    color:black;
+  }
+
+  .menu-normal{
+    position:relative;
+  }
+
+  .dropdown-menu{
+    position:absolute;
+    top:50px;
+    right:225px;
+    background-color:#fff;
+    visibility:hidden;
+    flex-direction: column;
+  }
+
+  .menu-normal li:hover ul,
+  .menu-normal li.over ul{
+    visibility:visible;
+  }
+
+  .menu-normal li .dropdown-menu li{
+    background-color:var(--verdeescuro);
+    padding:10px 0;
+    border-bottom:1px solid white;
+    width:250px;
+    display:block;
+  }
+
+  .menu-normal li .dropdown-menu li a{
+    color:white;
+    font-size:16px;
+    padding:5px 0;
+  }
+
+
+
+  /**************************************/
+  /**************HEADER******************/
+  /**************************************/
+
+  .background-header{
+    background-image: url("../imagens/happy-couple.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cor-background-header{
+    height:100vh;
+    width:100%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(47, 46, 46, 0.75);
+  }
+
+  .caixa-conteudo-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+  }
+
+  .caixa-texto{
+    margin:0 auto;
+    width:1000px;
+  }
+
+  .caixa-texto h1{
+    color:white;
+    font-size:80px;
+    margin-top:100px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:600;
+    line-height: 1.1em;
+  }
+
+  .caixa-texto h2{
+    color:white;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    margin:40px 0 80px 0;
+  }
+
+  .caixa-botao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .a-botao-contato{
+    box-sizing: border-box;
+    border-radius: var(--bordapadrao);
+    background-color:white;
+    color:black;
+      font-size:18px;
+      font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding:20px 40px;
+    margin:10px;
+    transition: 0.5s;
+    text-decoration:none;
+  }
+  .a-botao-contato:last-child{
+    background-color:var(--verdemedio);
+    color:white;
+  }
+
+  .a-botao-contato:hover{
+      background:var(--verdelimao);
+      color: black;
+    cursor: pointer;
+  }
+
+  .menu a.icon {
+    display: none;
+  }
+
+  @media (max-width:800px){
+    .caixa-texto{
+      width:100%
+    }
+
+    .caixa-texto h1{
+      margin: 0 40px;
+    }
+
+
+  .caixa-menu a {
+    margin:0;
+  }
+
+    /* Style the navigation menu */
+    .menu {
+    position: relative;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .caixa-menu ul{
+    display: none;
+    background-color:white;
+    margin-top:360px;
+    margin-right:-15px;
+  }
+
+  /* Style navigation menu links */
+  .menu a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .menu .a-btn-contato{
+      border-radius:0px;
+      background-color:white;
+      padding: 14px 16px;
+      color:var(--cinzaescuro);
+  }
+
+  .menu .a-btn-contato:hover{
+    background-color:white;
+}
+
+  .menu-normal{
+      display:block;
+  }
+
+  /* Style the hamburger menu */
+  .menu a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15;
+  }
+
+  /* Add a grey background color on mouse-over */
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+}
+
+  @media screen and (max-width:450px){
+
+  .caixa-superior {
+    max-width:100%;
+    text-align:left;
+    justify-content:space-around;
+  }
+
+  .caixa-superior li{
+
+    font-size:12px;
+  }
+
+  .logo{
+    width:120px;
+    margin:0;
+  }
+
+  .caixa-texto h1{
+    font-size:40px;
+    margin:20px;
+  }
+
+  .caixa-texto h2{
+    margin:20px 20px 20px 40px;
+  }
+
+  .caixa-texto{
+    width:100%;
+  }
+
+  .a-botao-contato{
+
+      font-size:16px;
+
+  }
+
+  .caixa-botao{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 51px;
+    position:absolute;
+    bottom:20px;
+  }
+
+
+  .caixa-menu a {
+    margin:0;
+  }
+
+}
+
+@media (max-width:350px){
+  .caixa-texto h2{
+    display:none;
+  }
+
+  .caixa-texto h1 {
+    margin: 10px 10px 40px 10px;
+  }
+}

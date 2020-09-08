@@ -1,0 +1,146 @@
+
+/**************************************/
+/************ACOMPANHAMENTO************/
+/**************************************/
+
+
+.square4 {
+    height: 5px;
+    width: 60px;
+    margin:0;
+    background-color: var(--verdeescuro);
+  }
+
+  .secao-app{
+    width:100%;
+  }
+
+  .caixa-app{
+    width:1100px;
+    height:400px;
+    margin:40px auto;
+    padding:10px;
+  }
+
+  .negrito{
+    font-weight:600;
+  }
+
+  .secao-app h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    line-height:1.2em;
+    margin:30px 0 20px 0;
+    color: var(--cinzatextos);
+  }
+
+  .caixa-app img{
+    width:550px;
+  }
+
+  .caixa-app ul{
+    display:grid;
+    list-style:none;
+    grid-template-columns: 550px 500px;
+    gap:40px;
+    margin-bottom:80px;
+  }
+
+  .caixa-app p {
+    font-family: 'Raleway', sans-serif;
+    line-height:1.5em;
+    font-size:16px;
+    color: var(--cinzatextos);
+  }
+
+  @media (max-width:1140px){
+
+    .caixa-app{
+      width:800px;
+    }
+
+    .caixa-app ul{
+      grid-template-columns: 400px 400px;
+    }
+
+    .caixa-app img{
+      width:400px;
+      margin-top:50px;
+    }
+
+    .secao-app h2{
+      font-size:30px;
+    }
+
+    .square3{
+      margin:0;
+    }
+
+  }
+
+    @media (max-width:800px){
+
+      .caixa-app{
+        width:100%;
+        padding:10px 0;
+      }
+
+      .caixa-app ul{
+        grid-template-columns: repeat(1,500px);
+        gap:40px;
+        justify-content: center;
+        align-content: center;
+      }
+
+      .caixa-app {
+        height:auto;
+      }
+
+      .caixa-app img {
+        width:500px;
+      }
+
+      .lista-app {
+        height:auto;
+      }
+
+    }
+
+    @media (max-width:450px){
+
+      .square4{
+        margin: 0 auto;
+      }
+      .caixa-app{
+        width:100%;
+        padding:0px;
+        height:100%;
+      }
+      .caixa-app li{
+        text-align:center;
+      }
+
+      .lista-app {
+        width:100%;
+      }
+
+      .caixa-app img {
+       width:300px;
+      }
+
+      .caixa-app h2 {
+        font-size:25px;
+       }
+
+      .caixa-app ul{
+        grid-template-columns: repeat(1,300px);
+        gap:60px;
+        justify-content: center;
+        align-content: center;
+      }
+
+
+
+    }
+
