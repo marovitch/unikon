@@ -378,8 +378,9 @@
 @media (max-width:380px){
 
   .cor-background-header{
-    height:110vh;
+    height:100vh;
   }
+
 
   .caixa-botao{
     display: flex;
@@ -398,3 +399,14 @@
   .caixa-texto h1{
     font-size:30px;
   }
+}
+
+@media (max-height:500px){
+  .cor-background-header{
+    height:120vh;
+  }
+
+  .caixa-botao{
+    bottom:-80px;
+  }
+}
