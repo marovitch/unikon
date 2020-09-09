@@ -87,7 +87,7 @@
       }
 
       .caixa-app ul{
-        grid-template-columns: repeat(1,500px);
+        grid-template-columns: repeat(1,550px);
         gap:40px;
         justify-content: center;
         align-content: center;

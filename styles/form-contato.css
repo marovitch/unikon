@@ -26,6 +26,9 @@
     font-family: 'Raleway', sans-serif;
 
   }
+  .informacoes-contato{
+    margin-bottom:40px;
+  }
 
   .informacoes-contato h4{
     font-family: 'Titillium Web', sans-serif;
@@ -229,7 +232,7 @@
   .caixa-contato{
     width:100%;
     padding:10px 0;
-    grid-template-columns: repeat(1, 500px);
+    grid-template-columns: repeat(1, 570px);
     align-content: center;
     justify-content:center;
 
@@ -262,6 +265,13 @@
 
   .fcf-btn-block{
     width:100%;
+  }
+
+}
+
+@media (max-width:360px){
+  .caixa-contato {
+    grid-template-columns: repeat(1, 290px);
   }
 
 }

@@ -65,7 +65,7 @@
     .caixa-chamada-pr h2,
     .caixa-chamada-pr p,
     .caixa-chamada-pr a{
-       margin-left:40px;
+      margin-left:100px;
      }
   }
 
@@ -73,7 +73,7 @@
     .caixa-chamada-pr h2,
     .caixa-chamada-pr p,
     .caixa-chamada-pr a{
-      margin-left:40px;
+      margin-left:100px;
     }
   }
 
@@ -87,7 +87,7 @@
 
     .caixa-chamada-pr a{
 
-      margin: 0 40px;
+      margin: 20px 40px;
     }
     .conteudo-chamada-pr{
       width:100%;
@@ -99,5 +99,11 @@
     }
     .conteudo-chamada-pr h2{
       font-size:35px;
+    }
+  }
+
+  @media(max-width:375px){
+    .caixa-chamada-pr{
+      height:590px;
     }
   }

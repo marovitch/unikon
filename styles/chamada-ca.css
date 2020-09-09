@@ -64,7 +64,7 @@
     .caixa-chamada-ca h2,
     .caixa-chamada-ca p,
     .caixa-chamada-ca a{
-      margin-left:40px;
+      margin-left:100px;
   }
 
   }
@@ -73,7 +73,7 @@
     .caixa-chamada-ca h2,
     .caixa-chamada-ca p,
     .caixa-chamada-ca a{
-      margin-left:40px;
+      margin-left:100px;
     }
   }
 
@@ -102,7 +102,7 @@
     }
   }
 
-  @media(max-width:350px){
+  @media(max-width:360px){
     .caixa-chamada-ca{
       height:550px;
     }

@@ -77,8 +77,11 @@
     .caixa-beneficios ul{
       grid-template-columns: repeat(3, 250px);
       gap:30px;
-      text-align:center;
       align-content: center;
+    }
+
+    .caixa-beneficios img{
+      width:60px;
     }
 
     .caixa-beneficios h2{
@@ -107,8 +110,8 @@
     .caixa-beneficios ul{
       grid-template-columns: repeat(3, 200px);
       gap:30px;
-      text-align:center;
       align-content: center;
+
     }
 
     .caixa-beneficios h3 {
@@ -122,9 +125,9 @@
     .caixa-beneficios ul{
       grid-template-columns: repeat(1, 300px);
       gap:30px;
-      text-align:center;
       align-content: center;
       justify-content:center;
+      text-align:left;
 
     }
 
